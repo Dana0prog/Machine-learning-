@@ -1,0 +1,104 @@
+                         PROBLEM STATEMENT
+================================================================================
+
+PROJECT: Coffee Shop Sales Prediction
+
+PROBLEM:
+Build a machine learning model to predict how many items a customer will buy
+
+PROBLEM TYPE: REGRESSION (Predicting numbers)
+
+
+DATA:
+================================================================================
+
+File: Coffee Shop Sales.xlsx
+Total Records: 149,116 transactions
+Time Period: January - June 2023 (6 months)
+Data Quality: Excellent (No missing values)
+
+KEY VARIABLES:
+- transaction_date: Date of purchase
+- transaction_time: Time of purchase
+- transaction_qty: Quantity purchased ⭐ (TARGET)
+- store_location: Store location
+- product_category: Product type (Coffee/Tea/Chocolate)
+- unit_price: Product price
+
+
+TARGET VARIABLE (What we want to predict):
+================================================================================
+
+transaction_qty (Number of items purchased)
+- Range: 1 to 8 items
+- Average: 1.44 items
+- Most common: 1 item
+
+OBJECTIVE:
+================================================================================
+
+1. Build an accurate prediction model for purchase quantity
+2. Help store with inventory management
+3. Identify peak sales times
+4. Support better business decisions
+5. Increase profits
+
+BENEFITS:
+================================================================================
+
+✓ Accurate sales forecasting
+✓ Better inventory management
+✓ Know peak hours
+✓ Better staff scheduling
+✓ Increase revenue
+✓ Reduce waste
+
+
+PROJECT STAGES:
+================================================================================
+
+1. Data Collection ✓ (DONE)
+2. Data Exploration ✓ (DONE)
+3. Data Preprocessing (UPCOMING)
+4. Train/Test Split (80/20)
+5. Model Selection
+6. Model Training
+7. Model Testing
+8. Make Predictions
+
+
+KEY STATISTICS:
+================================================================================
+
+Total Transactions: 149,116
+Number of Stores: 6
+Number of Products: 87
+Product Categories: 3 (Coffee, Tea, Chocolate)
+
+Purchase Quantity:
+- Minimum: 1 item
+- Maximum: 8 items
+- Average: 1.44 items
+
+Price:
+- Minimum: $0.80
+- Maximum: $45.00
+- Average: $3.38
+
+
+EXPECTED RESULTS:
+================================================================================
+
+High accuracy model (>75%)
+Low prediction error (<0.5 items)
+Useful for store planning and management
+
+
+CONCLUSION:
+================================================================================
+
+✓ Data: Clean and complete
+✓ Problem: Clear
+✓ Goal: Accurate prediction
+✓ Benefit: Better store management
+
